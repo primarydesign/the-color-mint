@@ -11,5 +11,9 @@
   "bugs": {
     "url": "https://github.com/primarydesign/the-color-mint/issues"
   },
-  "homepage": "https://github.com/primarydesign/the-color-mint#readme"
+  "homepage": "https://github.com/primarydesign/the-color-mint#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6"
+  }
 }
