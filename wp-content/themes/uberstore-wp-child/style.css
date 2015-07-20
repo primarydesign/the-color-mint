@@ -8,3 +8,91 @@
 */
 
 @import url("../uberstore-wp/style.css");
+
+/*
+	Theme Name: () UberStore Child Theme
+	Theme URI: http://themeforest.net/user/fuelthemes
+	Description: This is a child theme for UberStore
+	Version: 1.0.0
+	Author: fuelthemes
+	Template: uberstore-wp
+*/
+
+@import url("../uberstore-wp/style.css");
+
+/* keeps background image from being stretched */
+body.custom-background {
+    	background-size: contain;
+}
+
+/* header to white */
+#header.style1 {
+    	background:#ffffff;
+}
+
+/* nav link hover color mint green */
+#subnav > ul > li > a:hover {
+    	color: #81cec1;
+}
+
+/* header and footer items white for legibility */
+#subfooter p {
+    	color:#ffffff !important;
+}
+
+/* no bullet point for return policy address */
+.return-address {
+	list-style-type:none;
+}
+
+/* space out list items */
+li {
+	padding-bottom:10px;
+}
+
+/* --- Footer Styles --- */
+
+#footer .widget {
+    color: #fff;
+}
+
+#footer .widget .title {
+	letter-spacing:1px;	
+}
+
+#footer .textwidget {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.icon-2x {
+    color: #fff;
+    padding: 15px 15px 0px 0px;
+}
+
+#footer .widget ul {
+	line-height:.5em;
+}
+
+#footer .widget ul.menu li {
+	border:none;	
+}
+
+#footer .widget ul.menu li a {
+	font-size:13px;
+    font-weight: 400;
+	text-transform:none;
+	padding: 10px 0px;
+}
+
+#footer input[type="text"] {
+	color:#FFFFFF
+} 
+
+/* --- MEDIA QUERIES --- */
+
+@media (min-width: 961px) {
+p, li {
+	font-size:14px !important;
+}
+}

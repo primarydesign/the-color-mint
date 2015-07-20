@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>The Color Mint - Home</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+[rev_slider home]
+
+<section class="home-content">
+    <div class="home-text">
+    	<img src="assets/img/home/autumn-collection-2015.jpg">
+        <h3 class="tagline">2015 Autumn Collection</h3>
+    </div>
+    <div class="big home-categories">
+    	<div class="new-arrivals"><h4>New Arrivals</h4></div>
+        <div class="shop-outfit"><h4>Shop by Outfit</h4></div>
+    </div>
+    <div class="small home-categories">
+    	<div class="basics"><h4>Basics</h4></div>
+        <div class="sandals"><h4>Sandals</h4></div>
+        <div class="jewelry"><h4>Jewelry</h4></div>
+        <div class="usa"><h4>Made in U.S.A.</h4></div>
+    </div>
+</section>
+
+<style type="text/css">
+@import url("css/home.css");
+</style>
+
+    <article id="speakers"></article>
+    <script src="js/script.js"></script>
+    <script id="speakerstpl" type="text/template">
+        {{#speakers}}
+         <div class="speaker">
+             <h2>{{name}}</h2>
+             <h3>{{reknown}}</h3>
+             <p><img src="images/artists/{{shortname}}_tn.jpg" alt="Photo of"
+         </div>
+         {{/speakers}}
+    </script>
+
+
+
+</body>
+</html>

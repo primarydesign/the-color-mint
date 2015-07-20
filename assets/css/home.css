@@ -1,0 +1,91 @@
+/* CSS Document */
+
+#breadcrumbs {
+display:none;
+}
+
+.basics, .sandals, .jewelry, .usa, .new-arrivals, .shop-outfit {
+	display:inline-block;
+	text-align:center;
+}
+
+.basics, .sandals, .jewelry, .usa {
+	height: 340px;
+	min-width:140px;
+	width:23%;
+	margin: 0 2% 50px 0;
+	background-position: center !important;
+}
+
+.new-arrivals, .shop-outfit {
+	height: 723px;
+	min-width: 298px;
+	width: 48.3%;
+	margin: 0 2% 2% 0;
+	background-size:contain;
+}
+
+.usa, .shop-outfit  { margin-right:-2px; }
+
+.big h4, .small h4 {
+	text-transform:uppercase;
+	font-family:sans-serif;
+	color:#ffffff;
+	letter-spacing:2px;
+	position:relative;
+	width: 100%;
+}
+
+.big h4 {
+	background:rgba(129,206,193,.8);
+	padding: 17px 0px;
+	top: 332px;
+	font-size:30px !important;	
+}
+
+.small h4 {
+	top: 158px;	
+}
+
+@media (min-width:641px) {
+	.usa { position:absolute; }
+}
+
+@media (max-width:640px) {
+
+.new-arrivals, .shop-outfit {
+	background-position: top center !important;
+	background-size: cover !important;
+	min-width: 300px;
+	width: 100%;
+	margin: 0 0 15px 0;
+	height:400px;
+}
+
+.basics, .sandals, .jewelry, .usa {
+	width: 48.5%;
+	margin: 0px 2% 15px 0px;
+	background-size: cover !important;
+	background-position: bottom center !important;
+}
+
+.sandals, .usa { margin-right:0 }
+
+.big h4 { top: 170px }
+
+}
+
+
+@media (max-width:441px) {
+	.basics, .sandals, .jewelry, .usa {
+		width:100%
+	}
+} 
+
+.new-arrivals {background:url(../img/home/the-color-mint-new-arrivals.jpg) center no-repeat;}
+.shop-outfit {background:url(../img/home/the-color-mint-shop-by-outfit.jpg) center no-repeat;}
+
+.basics {background:url(../img/home/the-color-mint-basics.jpg) no-repeat;}
+.sandals {background:url(../img/home/the-color-mint-sandals.jpg) no-repeat;}
+.jewelry {background:url(../img/home/the-color-mint-jewelry.jpg) no-repeat;}
+.usa {background:url(../img/home/the-color-mint-made-in-usa.jpg) no-repeat;}

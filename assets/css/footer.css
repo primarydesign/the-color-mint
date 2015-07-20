@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#footer .widget {
+    color: #fff;
+}
+
+#footer .widget .title {
+	letter-spacing:1px;	
+}
+
+#footer .textwidget {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.icon-2x {
+    color: #fff;
+    padding: 15px 15px 0px 0px;
+}
+
+#footer .widget ul {
+	line-height:.5em;
+}
+
+#footer .widget ul.menu li {
+	border:none;	
+}
+
+#footer .widget ul.menu li a {
+	font-size:13px;
+    font-weight: 400;
+	text-transform:none;
+	padding: 10px 0px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, textarea:focus {
+	color:#FFFFFF !important
+}

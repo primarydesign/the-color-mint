@@ -1305,7 +1305,7 @@ input[type="radio"].custom_check:checked + .custom_label:before {
 }
 .post .post-content h4 {
   font-weight: 400;
-  font-size: 24px;
+  /*font-size: 24px;*/
   line-height: 28px;
   margin-top: 0;
 }
@@ -2054,7 +2054,7 @@ textarea {
   padding: 12px;
   height: 37px;
   margin-bottom: 15px;
-  color: #737373;
+  color: #ffffff;
   font-size: 12px;
   background: #ebebeb;
   outline: 0;
@@ -2133,7 +2133,7 @@ input[type="url"], #footer
 textarea {
   background: transparent;
   border-color: rgba(255, 255, 255, 0.1);
-  color: #737373;
+  color: #ffffff !important;
 }
 #footer input[type="text"]:focus, #footer
 input[type="password"]:focus, #footer
