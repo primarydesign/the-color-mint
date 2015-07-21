@@ -2131,9 +2131,9 @@ input[type="tel"], #footer
 input[type="time"], #footer
 input[type="url"], #footer
 textarea {
-  background: transparent;
-  border-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff !important;
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #737373 !important;
 }
 #footer input[type="text"]:focus, #footer
 input[type="password"]:focus, #footer

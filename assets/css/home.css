@@ -89,3 +89,28 @@ display:none;
 .sandals {background:url(../img/home/the-color-mint-sandals.jpg) no-repeat;}
 .jewelry {background:url(../img/home/the-color-mint-jewelry.jpg) no-repeat;}
 .usa {background:url(../img/home/the-color-mint-made-in-usa.jpg) no-repeat;}
+
+@media (min-width:1400px) {
+
+.tparrows.default.tp-rightarrow {
+    right:12% !important
+ }
+      
+.tparrows.default.tp-leftarrow {
+    left:12% !important
+ }
+
+}
+
+@media (min-width:1600px) {
+
+.tparrows.default.tp-rightarrow {
+    right:20% !important
+ }
+      
+.tparrows.default.tp-leftarrow {
+    left:20% !important
+ }
+
+}
+

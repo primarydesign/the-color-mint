@@ -3,5 +3,5 @@ node_modules
 .tmp
 .sass-cache
 builds/**/images/*
-wp-admin/
-wp-includes/
+wp-admin
+wp-includes
